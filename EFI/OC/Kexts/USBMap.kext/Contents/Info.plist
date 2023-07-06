@@ -44,7 +44,7 @@
 				<true/>
 				<key>port-count</key>
 				<data>
-				DQAAAA==
+				CwAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -56,6 +56,8 @@
 						<data>
 						AQAAAA==
 						</data>
+						<key>Comment</key>
+						<string>Backpanel USB 3.2 Gen2 Type C</string>
 					</dict>
 					<key>SS02</key>
 					<dict>
@@ -65,6 +67,8 @@
 						<data>
 						AgAAAA==
 						</data>
+						<key>Comment</key>
+						<string>Backpanel USB 3.2 Gen2 Type A</string>
 					</dict>
 					<key>SS03</key>
 					<dict>
@@ -92,6 +96,8 @@
 						<data>
 						BQAAAA==
 						</data>
+						<key>Comment</key>
+						<string>Backpanel USB 3.2 Gen2 Type A (USB 2.0)</string>
 					</dict>
 					<key>HS02</key>
 					<dict>
@@ -101,12 +107,14 @@
 						<data>
 						BgAAAA==
 						</data>
+						<key>Comment</key>
+						<string>USB Type A 3.2 (USB 2.0)</string>
 					</dict>
 					<key>HS03</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						BwAAAA==
 						</data>
@@ -115,7 +123,7 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						CAAAAA==
 						</data>
@@ -128,17 +136,19 @@
 						<data>
 						CQAAAA==
 						</data>
+						<key>Comment</key>
+						<string>USB Type A 2.0 (Bottom)</string>
 					</dict>
 					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						CgAAAA==
 						</data>
 						<key>Comment</key>
-						<string>Bluetooth</string>
+						<string>USB Type A 2.0 (Top)</string>
 					</dict>
 					<key>HS07</key>
 					<dict>
@@ -148,6 +158,8 @@
 						<data>
 						CwAAAA==
 						</data>
+						<key>Comment</key>
+						<string>Frontpanel USB Type A 2.0</string>
 					</dict>
 					<key>HS08</key>
 					<dict>
@@ -162,7 +174,7 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						DQAAAA==
 						</data>
@@ -183,7 +195,7 @@
 				<key>IOPropertyMatch</key>
 				<dict>
 					<key>pcidebug</key>
-					<string>7:0:3</string>
+					<string>8:0:3</string>
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
@@ -194,7 +206,7 @@
 				<true/>
 				<key>port-count</key>
 				<data>
-				CAAAAA==
+				BwAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -202,7 +214,7 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						AQAAAA==
 						</data>
@@ -215,6 +227,8 @@
 						<data>
 						AgAAAA==
 						</data>
+						<key>Comment</key>
+						<string>Backpanel USB A 3.1 Hub (4 Ports, USB 2.0)</string>
 					</dict>
 					<key>HS03</key>
 					<dict>
@@ -224,21 +238,25 @@
 						<data>
 						AwAAAA==
 						</data>
+						<key>Comment</key>
+						<string>Frontpanel USB 2.0 (USB_3_4)</string>
 					</dict>
 					<key>HS04</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						BAAAAA==
 						</data>
+						<key>Comment</key>
+						<string>Frontpanel USB 2.0 (USB_5_6)</string>
 					</dict>
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						BQAAAA==
 						</data>
@@ -251,6 +269,8 @@
 						<data>
 						BgAAAA==
 						</data>
+						<key>Comment</key>
+						<string>Backpanel USB A 3.1 Hub (4 Ports)</string>
 					</dict>
 					<key>SS03</key>
 					<dict>
@@ -260,15 +280,19 @@
 						<data>
 						BwAAAA==
 						</data>
+						<key>Comment</key>
+						<string>Frontpanel USB 3.0 (F_USB3_1_2)</string>
 					</dict>
 					<key>SS04</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						CAAAAA==
 						</data>
+						<key>Comment</key>
+						<string>Frontpanel USB 3.0 (F_USB3_3_4)</string>
 					</dict>
 				</dict>
 			</dict>
