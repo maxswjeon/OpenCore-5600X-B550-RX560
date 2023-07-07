@@ -44,7 +44,7 @@
 				<true/>
 				<key>port-count</key>
 				<data>
-				CwAAAA==
+				DQAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -74,7 +74,7 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						AwAAAA==
 						</data>
@@ -83,7 +83,7 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						BAAAAA==
 						</data>
@@ -174,10 +174,12 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
-						<key>#port</key>
+						<key>port</key>
 						<data>
 						DQAAAA==
 						</data>
+						<key>Comment</key>
+						<string>M.2 E Key (Wi-Fi) USB</string>
 					</dict>
 				</dict>
 			</dict>
@@ -195,7 +197,7 @@
 				<key>IOPropertyMatch</key>
 				<dict>
 					<key>pcidebug</key>
-					<string>8:0:3</string>
+					<string>9:0:3</string>
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
